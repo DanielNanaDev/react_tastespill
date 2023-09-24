@@ -1,0 +1,118 @@
+
+
+.gamepage-wrapper{
+     height: 100vh;
+ background: linear-gradient(
+    to right,
+     rgb(40, 142, 206),
+    white,
+ );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+
+.game-title{
+    font-size: 4rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-text-fill-color:rgb(151, 5, 5)
+}
+
+.game-container {
+    background-color: rgb(255, 255, 255);
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 3rem;
+    margin-bottom: 5rem;
+
+    .random-text {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(yellow);
+        width: 100%;
+        h3 {
+            font-size: 3rem;
+            margin-bottom: 4rem;
+            color: rgb(42, 145, 196);
+        }
+
+        p {
+           color: rgb(179, 21, 21);
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-size: 2rem;
+           font-weight: bold;
+        }
+    }
+
+    .input-container {
+        flex: 3;
+        width: 100%;
+        height: 25%;
+
+        .text-field-input{
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-top: 1px solid rgb(24, 149, 184);
+            border-bottom: 1px solid rgb(24, 149, 184);
+            outline: none;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+    }
+    .timer-button-container {
+        width: 80%;
+        flex: 2.6;
+        display: flex;
+        
+        .timer {
+        flex: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 80rem;
+        background-color: rgb(98, 201, 248)
+
+        }
+        
+        p{ 
+            font-size: 4rem;
+        }
+
+        .start-button {
+            flex: 1;
+            font-family: "black han sans", sans-serif;
+            outline: none;
+            border: 40;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 3rem;
+            letter-spacing: 0.4rem;
+        }
+
+    }
+}
+
+.Score-display{
+    font-size: 2rem;
+    bottom: 0;
+    transform: translate(-50% -50%);
+    color: rgb(146, 11, 11);
+}
+
+}
